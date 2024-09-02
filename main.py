@@ -41,5 +41,5 @@ bottom_label.pack(side="bottom")  # Pack this label at the bottom of the window)
 show_text_button = tk.Button(root, text="Show Info", command=show_text)
 show_text_button.pack()  # Add the button to the window
 
-# Start the application's main event loop to keep the window open
+# Start the application's main event loop
 root.mainloop()
